@@ -16,7 +16,7 @@ const app = express();
 
 // ✅ Configure CORS
 const corsOptions = {
-  origin: 'https://food-client-nu.vercel.app/',  // your frontend URL
+  origin: 'https://food-client-nu.vercel.app',  // your frontend URL
   credentials: true,  // Allow credentials (cookies, HTTP authentication)
 };
 
